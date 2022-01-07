@@ -5,7 +5,7 @@ const env = require("./environment");
 
 const User = require("../models/user");
 
-console.log("ClientID ", env);
+// console.log("ClientID ", env);
 // tell passport use a new strategy for google login
 passport.use(
   new googleStrategy(
